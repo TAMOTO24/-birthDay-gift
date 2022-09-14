@@ -1,0 +1,147 @@
+body{
+    font-family: "en inpin","Microsoft YaHei","Arial","Helvetica",sans-serif !important;
+    background: url("background12.png");
+    margin: unset;
+}
+.Headder-Position{
+    position: sticky;
+    display: flex;
+    color: whitesmoke;
+    text-align: center;
+    top: 1%;
+    z-index: 10;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(73, 73, 73);
+}
+main {
+    width: 1620px;
+}
+footer{
+    position:absolute;
+    bottom: -1100px;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(73, 73, 73);
+}
+.Footer-Text{
+    padding-top: 20px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(146, 145, 145);
+}
+.invisble-Block{
+    width: 30%;
+}
+.Cake-Position{
+   width: 220px;
+   height: 250px;
+}
+.Main-Block{
+    margin-top: 180px;
+    padding: 5px 30px;
+}
+.Video-BlockText{
+    padding-block: 20px;
+    font-size: xx-large;
+    font-weight: bold;
+    background: url("detail-panel-lg.4f10fdc.png")  100% no-repeat;
+    background-size: cover;
+    color:whitesmoke;
+}
+.SecondMain-Block{
+    clear:both;
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+}
+.FirstSide-Block{
+    display: none;
+    border-radius: 10px;
+    background: url("detail-panel-lg.4f10fdc.png")  100% no-repeat;
+    background-size: cover;
+    width: 31%;
+    height: 700px;
+    background-position: 50% 0% ;
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 20px;
+}
+.SecondSide-Block{
+    display: none;
+    border-radius: 10px;
+}
+.Gift-img{
+    width: 550px;
+    height: 600px;
+}
+.Video-Block{
+    margin-block: 30px;
+    clear:both;
+    text-align: center;
+}
+.GiftBox-Block{
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+    margin-inline: 30px;
+    background-color: rgb(192, 149, 149);
+}
+.GiftBox-img{
+    width: 100px;
+    height: 100px;
+}
+
+div:hover > .FirstSide-Block{
+    display: block;
+}
+div:hover > .SecondSide-Block{
+    display: block;
+}
+.Text-Itto-Name{
+    padding-inline: 50px;
+    padding-left: 200px;
+    border: 1px solid;
+    background: url("detail-panel-lg.4f10fdc.png")  90% no-repeat;
+    background-position: 50% 0% ;
+    border-radius: 10px;
+    color:rgb(208, 211, 224);
+    width: 500px;
+}
+.Itto-Audio{
+    margin-top: 10px;
+    padding-block: 20px;
+    padding-inline: 20px;
+    border: 1px solid none;
+    border-radius: 10px;
+    width: 500px;
+    background-color: rgb(73, 73, 73);
+}
+.itto-Card{
+    width: 163px;
+    height: 193px;
+    position: absolute;
+    top: 193px;
+}
+.Itto-Img{
+    position:absolute;
+    left: 666px;
+    top: 193px;
+    width: 820px;
+    height: 650px;
+}
+.text-block{
+    float: left;
+    width: 1000px;
+    font-size: 100%;
+    font-weight: bold;
+    padding: 30px 30px;
+    padding-right: 150px;
+    color: whitesmoke;
+    background: url("detail-panel-lg.4f10fdc.png")  90% no-repeat;
+    background-position: 95% 0% ;
+    height: 100%;
+    border-radius: 12px;
+}
